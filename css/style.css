@@ -11,6 +11,12 @@ header nav {
   padding: 20px;
 }
 
+header nav .logo p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #152a58;
+}
+
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,8 +27,12 @@ header nav ul {
 
 header nav ul a {
   text-decoration: none;
-  color: black;
+  color: #152a58;
   font-weight: bold;
+}
+
+header nav ul a:hover, header nav ul a :active {
+  color: #32589c;
 }
 
 .hero {
@@ -37,14 +47,14 @@ header nav ul a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: left;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 50px;
+  text-align: center;
 }
 
 .hero h1 {
@@ -57,7 +67,22 @@ header nav ul a {
   color: #fff;
 }
 
-.hero a {
+.hero .btn {
   color: #fff;
+  background-color: #152a58;
+  padding: 10px 20px;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
