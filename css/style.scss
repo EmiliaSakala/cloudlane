@@ -122,3 +122,19 @@ header{
 }
 
 
+.footer{
+    text-align: center;padding: 15px;background-color: #152a58;color: #fff;margin-top: 30px;
+    h2{
+        font-size: 25px;font-weight: 500;
+    }
+
+    .socials{
+        i{
+            color: #fff;margin: 0 10px;font-size: 20px; margin: 10px;
+
+            &:hover{
+                color: #32589c;
+            }
+        }
+    }
+}
