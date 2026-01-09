@@ -1,4 +1,8 @@
 @use 'reset';
+header {
+  font-family: "Lato", sans-serif;
+}
+
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,23 +65,27 @@ header nav ul a:hover, header nav ul a :active {
 .hero h1 {
   font-size: 48px;
   margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
 }
 
 .hero p {
   font-size: 18px;
   color: #fff;
+  font-family: "Lato", sans-serif;
 }
 
 .hero .btn {
   color: #fff;
   background-color: #152a58;
   padding: 10px 20px;
+  font-family: "Lato", sans-serif;
 }
 
 .about h2 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
 }
 
 .about .about-inner {
@@ -87,12 +95,14 @@ header nav ul a:hover, header nav ul a :active {
 .about .about-inner h3 {
   font-size: 25px;
   margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
 }
 
 .about .about-inner p {
   font-size: 18px;
   line-height: 1.6;
   color: #333;
+  font-family: "Lato", sans-serif;
 }
 
 .about .about-inner .btn {
@@ -100,10 +110,12 @@ header nav ul a:hover, header nav ul a :active {
   background-color: #152a58;
   padding: 10px 20px;
   margin-top: 15px;
+  font-family: "Lato", sans-serif;
 }
 
 #services {
   background: #152a58;
+  font-family: "Lato", sans-serif;
 }
 
 #services h2 {
@@ -141,6 +153,10 @@ header nav ul a:hover, header nav ul a :active {
   margin: 10px 0;
 }
 
+#why-us {
+  font-family: "Lato", sans-serif;
+}
+
 #why-us .container .why-card {
   gap: 20px;
   -webkit-box-align: start;
@@ -172,6 +188,7 @@ header nav ul a:hover, header nav ul a :active {
   background-color: #152a58;
   color: #fff;
   margin-top: 30px;
+  font-family: "Lato", sans-serif;
 }
 
 .footer h2 {
@@ -188,5 +205,88 @@ header nav ul a:hover, header nav ul a :active {
 
 .footer .socials i:hover {
   color: #32589c;
+}
+
+@media (max-width: 575px) {
+  header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+  }
+  header nav .logo p {
+    font-size: 20px;
+  }
+  header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .hero {
+    height: 50vh;
+  }
+  .hero h1 {
+    font-size: 25px;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+  .about h2 {
+    font-size: 24px;
+  }
+  .about .about-inner {
+    margin-top: 20px;
+  }
+  .about .about-inner h3 {
+    font-size: 18px;
+  }
+  .about .about-inner p {
+    font-size: 14px;
+  }
+  .about .about-inner .btn {
+    margin: 10px 0;
+  }
+  #services .container .tool-card h3 {
+    font-size: 18px;
+  }
+  #services .container .tool-card p {
+    font-size: 14px;
+  }
+  #services .container .tool-card i {
+    font-size: 30px;
+  }
+  #why-us .container .why-card .number {
+    font-size: 30px;
+  }
+  #why-us .container .why-card h5 {
+    font-size: 16px;
+  }
+  #why-us .container .why-card p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .about h2 {
+    font-size: 28px;
+  }
+  .about .about-inner {
+    text-align: center;
+  }
+  .about .about-inner h3 {
+    font-size: 20px;
+  }
+  .about .about-inner p {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
