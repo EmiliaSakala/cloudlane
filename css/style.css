@@ -80,27 +80,89 @@ header nav ul a:hover, header nav ul a :active {
   margin-bottom: 20px;
 }
 
-.about p {
+.about .about-inner {
+  margin-top: 50px;
+}
+
+.about .about-inner h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.about .about-inner p {
   font-size: 18px;
   line-height: 1.6;
   color: #333;
-  text-align: center;
+}
+
+.about .about-inner .btn {
+  color: #fff;
+  background-color: #152a58;
+  padding: 10px 20px;
+  margin-top: 15px;
 }
 
 #services {
-  background: #dbd8d2;
+  background: #152a58;
+}
+
+#services h2 {
+  color: #fff;
 }
 
 #services .container .tool-card {
-  background-color: red;
+  border: 2px solid #32589c;
   padding: 20px;
   margin: 10px;
   border-radius: 8px;
   text-align: center;
+  color: #fff;
 }
 
 #services .container .tool-card h3 {
   font-size: 22px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+#services .container .tool-card p {
+  font-size: 16px;
+}
+
+#services .container .tool-card i {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+#services .container .btn {
+  color: #fff;
+  background-color: #32589c;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+#why-us .container .why-card {
+  gap: 20px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#why-us .container .why-card .number {
+  font-size: 40px;
+  font-weight: bold;
+  color: #32589c;
+  line-height: 1;
+}
+
+#why-us .container .why-card h5 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#why-us .container .why-card p {
+  color: #333;
+  font-size: 17px;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

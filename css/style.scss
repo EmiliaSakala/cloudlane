@@ -51,23 +51,74 @@ header{
         text-align: center;font-size: 36px;margin-bottom: 20px;
     }
 
-    p{
-        font-size: 18px;line-height: 1.6;color: #333;text-align: center;
+    .about-inner{
+       margin-top: 50px;
+
+        h3{
+            font-size: 25px;margin-bottom: 20px;
+        }
+
+        p{
+        font-size: 18px;line-height: 1.6;color: #333;
+    }
+
+    .btn{
+        color: #fff;background-color: #152a58;padding: 10px 20px;margin-top: 15px;
+    }
+
     }
 }
 
 
 
 #services{
-    background: #dbd8d2;
+    background: #152a58;
+    h2{
+        color: #fff;
+    }
 
     .container{
         .tool-card{
-            background-color: red;padding: 20px;margin: 10px;border-radius: 8px;text-align: center;
+            border: 2px solid #32589c;padding: 20px;margin: 10px;border-radius: 8px;text-align: center;color: #fff;
 
             h3{
-                font-size: 22px;margin-bottom: 10px;
+                font-size: 22px;margin-bottom: 25px;
+            }
+            p{
+                font-size: 16px; }
+
+                i{ 
+                    font-size: 40px;margin-bottom: 15px;color: #fff;
+                }  
+        }
+
+        .btn{
+            color: #fff;background-color: #32589c;padding: 10px 20px;margin: 10px 0;   
+        }
+    }
+}
+
+
+#why-us{
+
+
+    .container{
+        .why-card{
+            gap: 20px;align-items: flex-start;
+
+            .number{
+                font-size: 40px; font-weight: bold; color: #32589c;line-height: 1;
+            }
+
+            h5{
+                font-weight: 600; margin-bottom: 8px;
+            }
+
+            p{
+                color: #333;font-size: 17px; margin: 0;
             }
         }
     }
 }
+
+
